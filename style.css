@@ -21,3 +21,93 @@ body {
     max-width: 100vw;
     overflow-x: hidden;
 }
+
+
+/* header */
+
+header {
+    background: var(--bg-color);
+}
+header h1 {
+    font-family: var(--main-typo);
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+header nav a{
+    font-family: var(--main-typo);
+    font-size: 1.2rem;
+}
+
+/* hero section  */
+
+.hero_section {
+    background: url(./img/gg.jpg) no-repeat center/cover;
+    height: 100vh;
+    padding: 0 30px;
+}
+.hero_section h1, .hero_section h2 {
+    font-family: var(--main-typo);
+}
+
+
+/* presentation */
+
+.presentation h2 {
+    font-family: var(--main-typo);
+}
+.presentation p {
+    font-family: var(--second-typo);
+}
+
+.mobile_justify {
+    text-align: justify;
+}
+
+/* actions */
+
+.actions {
+    padding: 60px 40px;
+    background: var(--bg-color);
+    gap: 30px;
+}
+.actions h2{
+    font-size: 2rem;
+    font-family: var(--main-typo);
+}
+.actions li {
+    font-family: var(--second-typo);
+    margin-bottom: 4px;
+}
+.actions i {
+    margin-right: 10px;
+}
+.actions img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* evenements */
+
+.event_card h2{
+    font-family: var(--main-typo);
+    font-size: 2rem;
+}
+.card {
+    box-shadow: 0px 0px 5px #00000026;
+    flex: 1;
+}
+.card h3 {
+    font-family: var(--main-typo);
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.card p {
+    font-family: var(--second-typo);
+}
