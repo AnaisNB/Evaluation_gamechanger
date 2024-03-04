@@ -111,3 +111,92 @@ header nav a{
 .card p {
     font-family: var(--second-typo);
 }
+
+
+/* animation */
+
+.button-event {
+    width: 130px;
+    background-image: linear-gradient(115deg, rgb(73,53,184), #8b7311, rgb(73,53,184), #651a74, #07642c);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.button-event:hover {
+    -webkit-animation: play 1.6s ease-in infinite;
+    animation: play 1.6s ease-in infinite;
+}
+
+.button-event span {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    display: block;
+    margin: 3px;
+    background: var(--bg-color);
+    border-radius: 3px;
+    font-family: var(--main-typo);
+}
+
+@-webkit-keyframes play {
+    0% {
+        background-position: 0px;
+    }
+    20% {
+        background-position: -110px;
+    }
+    35% {
+        background-position: -180px;
+    }
+    50% {
+        background-position: -210px;
+    }
+    80% {
+        background-position: -350px;
+    }
+    100% {
+        background-position: -390px;
+    }
+}
+
+/* footer */
+
+
+footer {
+    background: var(--bg-color);
+}
+.informations {
+    padding: 50px 40px;
+}
+.logo_description {
+    font-size: 1.1rem;
+}
+.logo_description h2{
+    font-family: var(--main-typo);
+}
+.informations_back {
+    padding: 30px;
+}
+.informations_back h3{
+    font-family: var(--main-typo);
+}
+.informations_back p{
+    font-family: var(--second-typo);
+}
+.contact h4{
+    font-family: var(--second-typo);
+}
+.partners li{
+    font-family: var(--second-typo);
+}
+.mentions {
+    padding: 10px 20px;
+    background: yellowgreen;
+    font-family: var(--second-typo);
+}
