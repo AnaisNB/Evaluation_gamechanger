@@ -41,7 +41,7 @@ header nav a{
 /* hero section  */
 
 .hero_section {
-    background: url(./img/gg.jpg) no-repeat center/cover;
+    background: url(./img/hero_section_index.jpg) no-repeat center/cover;
     height: 100vh;
     padding: 0 30px;
 }
@@ -204,7 +204,7 @@ footer {
 /* Events */
 
 .hero_section_events {
-    background: url(./Valorant_G2Gozen_Petra_GameChangers3.jpg) no-repeat center/cover;
+    background: url(./img/hero_section_events.webp) no-repeat center/cover;
     height: 100vh;
 }
 .hero_section_events h1 {
